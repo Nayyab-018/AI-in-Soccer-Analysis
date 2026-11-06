@@ -37,5 +37,5 @@ Recent form (last rolling values):
 ## 🛠️ How To Run
 Simply execute the Python file via your terminal:
 ```bash
-python3 soccer_trend_analysis.py
+ soccer_analysis.py
 ```
