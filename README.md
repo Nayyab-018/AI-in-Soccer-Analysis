@@ -39,3 +39,12 @@ Simply execute the Python file via your terminal:
 ```bash
  soccer_analysis.py
 ```
+---
+
+## ⚽ Real Madrid Case Study: Player Stats, Visualizations & ML Predictor (`Real_Madrid_AI_Analytics.ipynb`)
+Expanding beyond the zero-dependency trend script (`soccer_analysis.py`), this module applies **Pandas**, **Matplotlib**, and **Scikit-Learn** to a 12-match **Real Madrid** performance dataset:
+
+* **Visual Trend Tracking:** Plots actual goals scored against a 3-match rolling Expected Goals (`xG`) curve alongside stacked attacking contributions (`Goals + Assists`) for **Vinícius Júnior (13 G+A), Kylian Mbappé (9 G+A), Jude Bellingham (6 G+A), Rodrygo (6 G+A), and Federico Valverde (4 G+A)**.
+* **Machine Learning Win Classifier & Baseline Evaluation:** Trains a `LogisticRegression` model on Expected Goals (`xG`) and passing accuracy (`75.0%` validation accuracy across high-win-rate fixtures) to benchmark predictive modeling against a majority-class baseline.
+
+![Real Madrid AI Analytics Charts](real_madrid_analytics.png)
